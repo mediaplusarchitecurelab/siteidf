@@ -1,4 +1,4 @@
-applyworkshop(mapsiteen);
+applyworkshop(mapsitetw);
 
 // ==========================================
 // BANNER SLIDER
@@ -35,7 +35,7 @@ function applyworkshop(mapsite){
 
 for(let i=mapsite.workshop.length-1;i>0;i-=1){
     workshopstr+=
-          '<div class="gallery-box col-md-3 col-sm-3 col-xs-4 no-padding '+mapsite.workshop[i].typestr+' others">'+
+          '<div class="gallery-box col-md-4 col-sm-4 col-xs-4 no-padding '+mapsite.workshop[i].typestr+' others">'+
             '<img src="images/gallery1.jpg" alt="Gallery" />'+
             '<div class="gallery-content">'+
               '<p style="color: white; margin-bottom:20px;">'+mapsite.workshop[i].typestr+'</p>'+

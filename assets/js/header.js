@@ -1,4 +1,4 @@
-applyheader(mapsiteen);
+applyheader(mapsitetw);
 
 // ==========================================
 // HEADER MENU
@@ -50,7 +50,7 @@ navstr+=
 }
           
 
-navstr+=        '<li><a href="contactus.html" title="Contact">'+(mapsite.footer.lang==='English' ? 'Contact Us' : '聯絡我們' )+'</a></li>'+
+navstr+=        '<li><a href="#site-footer" class="dropdown-toggle" title="footer" role="button" aria-haspopup="true" aria-expanded="false">'+(mapsite.footer.lang==='English' ? 'Contact Us' : '聯絡我們' )+'</a></li>'+
               '</ul>'+
             '</div>'+
 //<!--/.nav-collapse -->

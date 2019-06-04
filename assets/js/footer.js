@@ -1,4 +1,4 @@
-applyfooter(mapsiteen);
+applyfooter(mapsitetw);
 
 // ==========================================
 // HEADER MENU

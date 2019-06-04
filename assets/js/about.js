@@ -1,4 +1,4 @@
-applyabout(mapsiteen);
+applyabout(mapsitetw);
 
 // ==========================================
 // BANNER SLIDER
@@ -11,11 +11,10 @@ function applyabout(mapsite){
 // ==========================================
 var aboutstr = 
         '<div class="section-header">'+
-          //'<h3>111111<span>welcome To Our <span>MUSEUM</span></span></h3>'+
           mapsite.about.intro.titlesecstr+
         '</div>'+
         //<!-- Section Header /- -->
-        '<div class="container">'+
+        '<div class="fluid-container">'+
             '<div class="col-md-6 no-padding img-block" data-image="images/history-img.jpg">'+
               '<img src="images/history-img.jpg" alt="History" />'+
             '</div>'+

@@ -1,4 +1,4 @@
-applytutorial(mapsiteen);
+applytutorial(mapsitetw);
 
 // ==========================================
 // BANNER SLIDER
