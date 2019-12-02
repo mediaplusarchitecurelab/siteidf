@@ -365,7 +365,6 @@ var workshopfn = function(ssurl,ty){
       $(window).load(function () {
         $(".loader").fadeOut();
         $("#preloader").delay(350).fadeOut("slow");
-        //window.sr = ScrollReveal();
         //sr.reveal('.sr-animated', { duration: 1000, viewOffset: { top: 100 }});
       });
 // data switch
