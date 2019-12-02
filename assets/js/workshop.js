@@ -42,7 +42,7 @@ for(let i=mapsite.workshop.length-1;i>0;i-=1){
               '<h3 style="border-bottom:solid 2px; padding-bottom:10px;">'+mapsite.workshop[i].titlestr+'</h3>'+
               '<span>'+
                 '<a href="#" title="Link"><i class="icon icon-Linked"></i></a>'+
-                '<a class="zoom" href="images/gallery1.jpg" title="zoom"><i class="icon icon-Search"></i></a>'+
+                '<a class="zoom" href="'+mapsite.workshop[i].pic+'" title="zoom"><i class="icon icon-Search"></i></a>'+
               '</span>'+
             '</div>'+
           '</div>';
