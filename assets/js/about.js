@@ -103,9 +103,10 @@ teamstr +=
     teamstr +=
             '<div class="col-md-2 col-sm-6 col-xs-6 venu-box">'+
               '<div class="venu-image-block">'+
-                '<img src="images/venu-1.jpg" alt="venu" />'+
-                '<div class="venu-content">'+
+                '<img src="'+mapsite.team[i].pic+'" alt="venu" />'+
+                '<div class="venu-content" >'+
                   '<h5>'+mapsite.team[i].position+'</h5>'+
+                  '<h5>'+mapsite.team[i].name+'</h5>'+
                 '</div>'+
               '</div>'+
             '</div>';
