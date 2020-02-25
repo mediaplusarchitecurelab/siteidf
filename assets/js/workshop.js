@@ -19,13 +19,13 @@ function applyworkshop(mapsite){
     workshopstr+=
       '<div class="gallery-category">'+
           '<ul id="filters">'+
-            '<li><a id="first-click" data-filter=".'+mapsite.header[4].sub[0]+'" class="active" href="#" title="'+mapsite.header[4].sub[0]+'">'+mapsite.header[4].sub[0]+'</a></li>';
+            '<li><a id="first-click" data-filter=".'+mapsite.header[3].sub[0]+'" class="active" href="#" title="'+mapsite.header[3].sub[0]+'">'+mapsite.header[3].sub[0]+'</a></li>';
 
-    for (let i=1;i<mapsite.header[4].sub.length;i+=1){
-        workshopstr+='<li><a data-filter=".'+mapsite.header[4].sub[i]+'" href="#" title="'+mapsite.header[4].sub[i]+'">'+mapsite.header[4].sub[i]+'</a></li>';
+    for (let i=1;i<mapsite.header[3].sub.length;i+=1){
+        workshopstr+='<li><a data-filter=".'+mapsite.header[3].sub[i]+'" href="#" title="'+mapsite.header[3].sub[i]+'">'+mapsite.header[3].sub[i]+'</a></li>';
     } 
 
-
+    //console.log(mapsite.header);
     workshopstr+=
           '</ul>'+
       '</div>';   
