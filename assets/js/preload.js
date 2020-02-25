@@ -228,6 +228,7 @@ $.ajax(
                               "tel": urlmap.feed.entry[0].gsx$電話.$t,
                               "logoline": urlmap.feed.entry[0].gsx$圖示橫.$t,
                               "logostright": urlmap.feed.entry[0].gsx$圖示直.$t,
+                              "email": urlmap.feed.entry[0].gsx$email.$t,
                               "contentstr":footercontent
                           };
         }
@@ -480,12 +481,12 @@ var workshopfn = function(ssurl,ty){
 $.when( headeren , headertw, 
         aboutfn(ssurl2,'EN'),
         aboutfn(ssurl2tw,'中'),
-        teamfn(ssurl5,'EN'),
-        teamfn(ssurl5tw,'中'),
+        teamfn(ssurl4,'EN'),
+        teamfn(ssurl4tw,'中'),
         tutorialfn(ssurl3,'EN'),
         tutorialfn(ssurl3tw,'中'),
-        workshopfn(ssurl4,'EN'),
-        workshopfn(ssurl4tw,'中'),
+        workshopfn(ssurl5,'EN'),
+        workshopfn(ssurl5tw,'中'),
         servicefn(ssurl6,'EN'),
         servicefn(ssurl6tw,'中'),
       ).done(function() {
