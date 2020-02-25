@@ -71,7 +71,7 @@ var footerstr =
                 '<p><i class="icon icon-Pointer"></i>'+(mapsite.footer.lang==='English' ? ' Yunlin, R.O.C, Taiwan, Idea Factory' : '台灣。雲林。自造者中心' )+'</p>'+
                 '<p>'+
                   '<span><i class="icon icon-Phone2"></i> <a href="#" title="tel_footer">+886-5-534-2601 #6005</a></span>'+
-                  '<span><i class="icon icon-Mail"></i> <a href="#" title="email_footer">i@idf.tw</a></span>'+
+                  '<span><i class="icon icon-Mail"></i> <a href="#" title="email_footer">'+mapsite.footer.email+'</a></span>'+
                 '</p>'+
               '</div>'+
             '</div>'+
