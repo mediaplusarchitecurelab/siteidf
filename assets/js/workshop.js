@@ -25,7 +25,7 @@ function applyworkshop(mapsite){
         workshopstr+='<li><a data-filter=".'+mapsite.header[3].sub[i]+'" href="#" title="'+mapsite.header[3].sub[i]+'">'+mapsite.header[3].sub[i]+'</a></li>';
     } 
 
-    //console.log(mapsite.header);
+    console.log(mapsite.header);
     workshopstr+=
           '</ul>'+
       '</div>';   
